@@ -53,9 +53,9 @@ const Resume = () => {
                             <div className="twelve columns">
                                 <h3>Abert Entity</h3>
                                 <h5>Palm Springs, CA</h5>
-                                <p className="info">Freelance Web Designer <span>&bull;</span><em className="date">February 2019 – May 2019</em></p>
+                                <p className="info">Freelance Web Designer <span>&bull;</span><em className="date">February 2018 – May 2019</em></p>
                                 <ul>
-                                    <li><strong>Task:</strong><br />Develope a web site for new business presentations.</li><br />
+                                    <li><strong>Task:</strong><br />Develop a web site for new business presentations.</li><br />
                                     <li><strong>Responsibility:</strong></li>
                                     <li>Set up a website using Adobe Muse.</li>
                                     <li>Created a fully functional website that was easily interchangeable to meet <br />the needs of the presentor. The main company portions of the site were <br />static across four templates, and the products sections were changed out <br />to meet the specific client who was being presented.  </li><br />

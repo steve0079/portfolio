@@ -11,12 +11,12 @@ const Portfolio = () => {
 
                             <div className="columns portfolio-item">
                                 <div className="item-wrap">
-                                    <a href="#modal-01" title="Bowman Design Group Website">
-                                        <img src="images/portfolio/bdg_web.jpg" alt="" />
+                                    <a href="#modal-01" title="Scratch: A Simple Note Taking App">
+                                        <img src="images/portfolio/scratch_web.jpg" alt="" />
                                         <div className="overlay">
                                             <div className="portfolio-item-meta">
-                                                <h5>Bowman Design Group</h5>
-                                                <p>Web Design/Development</p>
+                                                <h5>Scratch</h5>
+                                                <p>A Simple Note Taking App</p>
                                             </div>
                                         </div>
                                         <div className="link-icon"><i className="icon=plus"></i></div>
@@ -26,12 +26,12 @@ const Portfolio = () => {
 
                             <div className="columns portfolio-item">
                                 <div className="item-wrap">
-                                    <a href="#modal-02" title="">
-                                        <img src="images/portfolio/dLink_landing.jpg" alt="" />
+                                    <a href="#modal-02" title="Developer Connector">
+                                        <img src="images/portfolio/devConnect_web.jpg" alt="" />
                                         <div className="overlay">
                                             <div className="portfolio-item-meta">
-                                                <h5>D-Link</h5>
-                                                <p>Landing Page Design/Development</p>
+                                                <h5>MERN Web App</h5>
+                                                <p>Developer Connector</p>
                                             </div>
                                         </div>
                                         <div className="link-icon"><i className="icon=plus"></i></div>
@@ -134,11 +134,12 @@ const Portfolio = () => {
                 </div>
 
                 <div className="popup-modal mfp-hide" id="modal-01">
-                    <img src="images/portfolio/modals/m-bdg_web.jpg" alt="Bowman Design Group Website" className="scale-with-grid" />
+                    <img src="images/portfolio/modals/m-scratch_web.jpg" alt="Scratch: A Simple Note Taking App" className="scale-with-grid" />
                     <div className="description-box">
-                        <h4>Bowman Design Group</h4>
-                        <p><strong>Task</strong> To develop a company website while working closely with the Art Director. <br /> <strong>Responsibility</strong> I was able to review each design element of the site, and develop and execute the layout and functionality using Adobe Muse.</p>
-                        <span className="categories"><i className="fa fa-tag">Web Design, Development</i></span>
+                        <h4>Scratch: A Simple Note Taking App</h4>
+                        <p><strong>Task</strong> To build a full stack serverless application.<br /> <strong>Responsibility</strong> I utilized AWS Lambda + API Gateway for my serverless API, along with using DynamoDB for the database and Cognito for authentication and securing the API. In order to host this site I use AWS S3, and used CloudFront for serving out the app. The front end was created with React.js using React Router for routing, Bootstrap for the UI kit, and GitHub for hosting my project repos.</p>
+                        <p><strong>Website</strong><a href="http://d20z0i2q3asibp.cloudfront.net/"target="_blank" rel="noopener noreferrer"> Click Here</a></p>
+                        <span className="categories"><i className="fa fa-tag">Full Stack, Development</i></span>
                     </div>
                     <div className="link-box">
                         <a href="#portfolio" className="popup-modal-dismiss">Close</a>
@@ -146,11 +147,12 @@ const Portfolio = () => {
                 </div>
 
                 <div className="popup-modal mfp-hide" id="modal-02">
-                    <img src="images/portfolio/modals/m-dLink_landing.jpg" alt="Landing Page for D-Link" className="scale-with-grid" />
+                    <img src="images/portfolio/modals/m-devConnect_web.jpg" alt="" className="scale-with-grid" />
                     <div className="description-box">
-                        <h4>D-Link</h4>
-                        <p><strong>Task</strong> Create a landing page for D-Link Smart Home Products. <br /> <strong>Responsibility</strong> Working with the creative team, I was able to desgin the landing page using Adobe Photoshop, then complete the development stage using html, css and js.</p>
-                        <span className="categories"><i className="fa fa-tag">Landing Page Design, Development</i></span>
+                        <h4>MERN Web App</h4>
+                        <p><strong>Task</strong> Create a full-stack MERN web app. <br /> </p>
+                        <p><strong>Website</strong><a href="https://boiling-bastion-07485.herokuapp.com" target="_blank" rel="noopener noreferrer"> Click Here</a></p>
+                        <span className="categories"><i className="fa fa-tag">Full Stack, Development</i></span>
                     </div>
                     <div className="link-box">
                         <a href="#portfolio" className="popup-modal-dismiss">Close</a>
