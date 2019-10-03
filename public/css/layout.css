@@ -332,7 +332,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .photoshop {
-   width: 90%;
+   width: 95%;
    animation: photoshop 2s ease;
    -moz-animation: photoshop 2s ease;
    -webkit-animation: photoshop 2s ease;
@@ -344,25 +344,25 @@ ul#nav li.current a { color: #F06000; }
    -webkit-animation: react 2s ease;
 }
 .javascript {
-   width: 50%;
+   width: 55%;
    animation: javascript 2s ease;
    -moz-animation: javascript 2s ease;
    -webkit-animation: javascript 2s ease;
 }
 .nodejs {
-   width: 50%;
+   width: 60%;
    animation: nodejs 2s ease;
    -moz-animation: nodejs 2s ease;
    -webkit-animation: nodejs 2s ease;
 }
 .mongodb {
-   width: 40%;
+   width: 60%;
    animation: mongodb 2s ease;
    -moz-animation: mongodb 2s ease;
    -webkit-animation: mongodb 2s ease;
 }
 .express {
-   width: 40%;
+   width: 60%;
    animation: express 2s ease;
    -moz-animation: express 2s ease;
    -webkit-animation: express 2s ease;
@@ -374,13 +374,13 @@ ul#nav li.current a { color: #F06000; }
    -webkit-animation: bootstrap 2s ease;
 }
 .css {
-   width: 65%;
+   width: 60%;
    animation: css 2s ease;
    -moz-animation: css 2s ease;
    -webkit-animation: css 2s ease;
 }
 .html5 {
-   width: 60%;
+   width: 70%;
    animation: html5 2s ease;
    -moz-animation: html5 2s ease;
    -webkit-animation: html5 2s ease;
@@ -394,7 +394,7 @@ ul#nav li.current a { color: #F06000; }
 
 @-moz-keyframes photoshop {
    0%   { width: 0px;  }
-   100% { width: 90%;  }
+   100% { width: 95%;  }
 }
 @-moz-keyframes react {
    0%   { width: 0px;  }
@@ -402,19 +402,19 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes javascript {
    0%   { width: 0px;  }
-   100% { width: 50%;  }
+   100% { width: 55%;  }
 }
 @-moz-keyframes nodejs {
    0%   { width: 0px;  }
-   100% { width: 50%;  }
+   100% { width: 60%;  }
 }
 @-moz-keyframes mongodb {
    0%   { width: 0px;  }
-   100% { width: 40%;  }
+   100% { width: 60%;  }
 }
 @-moz-keyframes express {
    0%   { width: 0px;  }
-   100% { width: 40%;  }
+   100% { width: 60%;  }
 }
 @-moz-keyframes bootstrap {
    0%   { width: 0px;  }
@@ -422,11 +422,11 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes css {
    0%   { width: 0px;  }
-   100% { width: 65%;  }
+   100% { width: 60%;  }
 }
 @-moz-keyframes html5 {
    0%   { width: 0px;  }
-   100% { width: 60%;  }
+   100% { width: 70%;  }
 }
 @-moz-keyframes npm {
    0%   { width: 0px;  }
@@ -435,7 +435,7 @@ ul#nav li.current a { color: #F06000; }
 
 @-webkit-keyframes photoshop {
    0%   { width: 0px;  }
-   100% { width: 90%;  }
+   100% { width: 95%;  }
 }
 @-webkit-keyframes react {
    0%   { width: 0px;  }
@@ -443,19 +443,19 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes javascript {
    0%   { width: 0px;  }
-   100% { width: 50%;  }
+   100% { width: 55%;  }
 }
 @-webkit-keyframes nodejs {
    0%   { width: 0px;  }
-   100% { width: 50%;  }
+   100% { width: 60%;  }
 }
 @-webkit-keyframes mongodb {
    0%   { width: 0px;  }
-   100% { width: 40%;  }
+   100% { width: 60%;  }
 }
 @-webkit-keyframes express {
    0%   { width: 0px;  }
-   100% { width: 40%;  }
+   100% { width: 60%;  }
 }
 @-webkit-keyframes bootstrap {
    0%   { width: 0px;  }
@@ -463,11 +463,11 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes css {
    0%   { width: 0px;  }
-   100% { width: 65%;  }
+   100% { width: 60%;  }
 }
 @-webkit-keyframes html5 {
    0%   { width: 0px;  }
-   100% { width: 60%;  }
+   100% { width: 70%;  }
 }
 @-webkit-keyframes npm {
    0%   { width: 0px;  }

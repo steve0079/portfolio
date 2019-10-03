@@ -30,8 +30,8 @@ const Portfolio = () => {
                                         <img src="images/portfolio/devConnect_web.jpg" alt="" />
                                         <div className="overlay">
                                             <div className="portfolio-item-meta">
-                                                <h5>MERN Web App</h5>
-                                                <p>Developer Connector</p>
+                                                <h5>Developer Connector</h5>
+                                                <p>Full Stack (MERN) Development</p>
                                             </div>
                                         </div>
                                         <div className="link-icon"><i className="icon=plus"></i></div>
@@ -42,11 +42,11 @@ const Portfolio = () => {
                             <div className="columns portfolio-item">
                                 <div className="item-wrap">
                                     <a href="#modal-03" title="">
-                                        <img src="images/portfolio/epson_web.jpg" alt="" />
+                                        <img src="images/portfolio/fundedu_web.jpg" alt="" />
                                         <div className="overlay">
                                             <div className="portfolio-item-meta">
-                                                <h5>Epson Printers</h5>
-                                                <p>Landing Page Design/Development</p>
+                                                <h5>FundEDU</h5>
+                                                <p>Full Stack Development</p>
                                             </div>
                                         </div>
                                         <div className="link-icon"><i className="icon-plus"></i></div>
@@ -138,10 +138,10 @@ const Portfolio = () => {
                     <div className="description-box">
                         <h4>Scratch: A Simple Note Taking App</h4>
                         <p><strong>Task</strong> To build a full stack serverless application.<br /> <strong>Responsibility</strong> I utilized AWS Lambda + API Gateway for my serverless API, along with using DynamoDB for the database and Cognito for authentication and securing the API. In order to host this site I use AWS S3, and used CloudFront for serving out the app. The front end was created with React.js using React Router for routing, Bootstrap for the UI kit, and GitHub for hosting my project repos.</p>
-                        <p><strong>Website</strong><a href="http://d20z0i2q3asibp.cloudfront.net/"target="_blank" rel="noopener noreferrer"> Click Here</a></p>
                         <span className="categories"><i className="fa fa-tag">Full Stack, Development</i></span>
                     </div>
                     <div className="link-box">
+                        <a href="http://d20z0i2q3asibp.cloudfront.net/" target="_blank" rel="noopener noreferrer">Website</a>
                         <a href="#portfolio" className="popup-modal-dismiss">Close</a>
                     </div>
                 </div>
@@ -151,20 +151,21 @@ const Portfolio = () => {
                     <div className="description-box">
                         <h4>MERN Web App</h4>
                         <p><strong>Task</strong> Create a full-stack MERN web app. <br /> </p>
-                        <p><strong>Website</strong><a href="https://boiling-bastion-07485.herokuapp.com" target="_blank" rel="noopener noreferrer"> Click Here</a></p>
                         <span className="categories"><i className="fa fa-tag">Full Stack, Development</i></span>
                     </div>
                     <div className="link-box">
+                        <a href="https://boiling-bastion-07485.herokuapp.com" target="_blank" rel="noopener noreferrer">Website</a>
                         <a href="#portfolio" className="popup-modal-dismiss">Close</a>
                     </div>
                 </div>
 
                 <div className="popup-modal mfp-hide" id="modal-03">
-                    <img src="images/portfolio/modals/m-epson_web.jpg" alt="Epson Landing Page" className="scale-with-grid" />
+                    <img src="images/portfolio/modals/m-fundedu_web.jpg" alt="" className="scale-with-grid" />
                     <div className="description-box">
-                        <h4>Epson</h4>
-                        <p><strong>Task</strong> Create a landing page for Epson Projectors that linked directly to a product page. <br /> <strong>Responsibility</strong> Working with the art director, I was able to utilize the design elements and create the artwork using Adobe Photoshop, then develop the page using html, css and js.</p>
-                        <span className="categories"><i className="fa fa-tag">Landing Page Design, Development</i></span>
+                        <h4>FundEDU</h4>
+                        <p><strong>Task</strong> Develop a web application connecting students with funders.</p>
+                        <p><strong>Responsibility</strong> As a team project we first needed to set up a server with Node.js and Express, then create a MongoDB schema for registration and login purposes. Next, we set up API routes using passport + jsonwebtokens(JWTs) for authentication and input validation, then created protected routes that are accessible only to logged-in users based on their authentication. For the front end, we created a React app with components for navigation, landing page, login, registration and dashboard, and used Redux for state management.</p>
+                        <span className="categories"><i className="fa fa-tag">Full Stack, Development</i></span>
                     </div>
                     <div className="link-box">
                         <a href="#portfolio" className="popup-modal-dismiss">Close</a>
@@ -191,6 +192,7 @@ const Portfolio = () => {
                         <span className="categories"><i className="fa fa-tag">Web Design, Development</i></span>
                     </div>
                     <div className="link-box">
+                        <a href="http://abertentity.com" target="_blank" rel="noopener noreferrer">Website</a>
                         <a href="#portfolio" className="popup-modal-dismiss">Close</a>
                     </div>
                 </div>

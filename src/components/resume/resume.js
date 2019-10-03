@@ -38,7 +38,7 @@ const Resume = () => {
                                 <h5>Costa Mesa, CA</h5>
                                 <p className="info">Freelance Full Stack Developer <span>&bull;</span><em className="date">August 2019</em></p>
                                 <ul>
-                                    <li><strong>Task:</strong><br />Develope a web application connecting students with funders.</li><br />
+                                    <li><strong>Task:</strong><br />Develop a web application connecting students with funders.</li><br />
                                     <li><strong>Responsibility:</strong></li>
                                     <li>Set up a server with Node.js and Express</li>
                                     <li>Created a MongoDB schema for registration and login purposes</li>
@@ -103,9 +103,9 @@ const Resume = () => {
                             <ul className="skills">
                                 <li><span className="bar-expand css"></span><em>CSS3</em></li>
                                 <li><span className="bar-expand html5"></span><em>HTML5</em></li>
-                                <li><span className="bar-expand javascript"></span><em>JavaScript(ES6)</em></li>
+                                <li><span className="bar-expand javascript"></span><em>JavaScript (ES6)</em></li>
                                 <li><span className="bar-expand react"></span><em>React</em></li>
-                                <li><span className="bar-expand react"></span><em>Redux</em></li>
+                                <li><span className="bar-expand javascript"></span><em>Redux</em></li>
                                 <li><span className="bar-expand nodejs"></span><em>NodeJS</em></li>
                                 <li><span className="bar-expand mongodb"></span><em>MongoDB</em></li>
                                 <li><span className="bar-expand express"></span><em>Express</em></li>
