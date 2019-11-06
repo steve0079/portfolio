@@ -13,7 +13,7 @@ const Resume = () => {
                         <div className="row item">
                             <div className="twelve columns">
                                 <h3>Redwood Code Academy</h3>
-                                <p className="info">Certified Full-Stack Developer<span>&bull;</span><em className="date">August 2019</em></p>
+                                <p className="info">Certified Full-Stack Developer<span>&bull;</span><em className="date">2019</em></p>
                                 <p>Extending career into full-stack web development with an emphasis on the <br />front-end using React and Redux.</p>
                             </div>
                         </div>
