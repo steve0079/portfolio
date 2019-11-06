@@ -20,7 +20,7 @@ const Resume = () => {
                         <div className="row item">
                             <div className="twelve columns">
                                 <h3>Lynda.com</h3>
-                                <p className="info">Web Developer Certifications<span>&bull;</span><em className="date">March 2018</em></p>
+                                <p className="info">Web Developer Certifications<span>&bull;</span><em className="date">2018</em></p>
                                 <p>On-going education and learning web development.</p>
                             </div>
                         </div>
