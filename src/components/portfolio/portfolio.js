@@ -12,11 +12,11 @@ const Portfolio = () => {
                             <div className="columns portfolio-item">
                                 <div className="item-wrap">
                                     <a href="#modal-01" title="Scratch: A Simple Note Taking App">
-                                        <img src="images/portfolio/scratch_web.jpg" alt="" />
+                                        <img src="images/portfolio/thirtyOneLabs.jpg" alt="" />
                                         <div className="overlay">
                                             <div className="portfolio-item-meta">
-                                                <h5>Scratch</h5>
-                                                <p>A Simple Note Taking App</p>
+                                                <h5>ThirtyOne Labs</h5>
+                                                <p>Website</p>
                                             </div>
                                         </div>
                                         <div className="link-icon"><i className="icon=plus"></i></div>
@@ -87,6 +87,67 @@ const Portfolio = () => {
                             <div className="columns portfolio-item">
                                 <div className="item-wrap">
                                     <a href="#modal-06">
+                                        <img src="images/portfolio/dLink_rt1.jpg" alt="" />
+                                        <div className="overlay">
+                                            <div className="portfolio-item-meta">
+                                                <h5>D-Link</h5>
+                                                <p>Web Landing Page</p>
+                                            </div>
+                                        </div>
+                                        <div className="link-icon"><i className="icon-plus"></i></div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div className="columns portfolio-item">
+                                <div className="item-wrap">
+                                    <a href="#modal-07" title="">
+                                        <img src="images/portfolio/vcBanners.jpg" alt="" />
+                                        <div className="overlay">
+                                            <div className="portfolio-item-meta">
+                                                <h5>Vista Collina Resort</h5>
+                                                <p>Web Banners</p>
+                                            </div>
+                                        </div>
+                                        <div className="link-icon"><i className="icon-plus"></i></div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div className="columns portfolio-item">
+                                <div className="item-wrap">
+                                    <a href="#modal-08" title="">
+                                        <img src="images/portfolio/jwstBrochure.jpg" alt="" />
+                                        <div className="overlay">
+                                            <div className="portfolio-item-meta">
+                                                <h5>James Webb Space Telescope</h5>
+                                                <p>Brochure Layout</p>
+                                            </div>
+                                        </div>
+                                        <div className="link-icon"><i className="icon-plus"></i></div>
+                                    </a>
+                                </div>
+                            </div>
+
+
+                            <div className="columns portfolio-item">
+                                <div className="item-wrap">
+                                    <a href="#modal-09" title="">
+                                        <img src="images/portfolio/epsonProjectorBrochure.jpg" alt="" />
+                                        <div className="overlay">
+                                            <div className="portfolio-item-meta">
+                                                <h5>Epson Projectors</h5>
+                                                <p>Brochure Layout</p>
+                                            </div>
+                                        </div>
+                                        <div className="link-icon"><i className="icon-plus"></i></div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div className="columns portfolio-item">
+                                <div className="item-wrap">
+                                    <a href="#modal-10">
                                         <img src="images/portfolio/mitsu_rt1.jpg" alt="" />
                                         <div className="overlay">
                                             <div className="portfolio-item-meta">
@@ -101,7 +162,7 @@ const Portfolio = () => {
 
                             <div className="columns portfolio-item">
                                 <div className="item-wrap">
-                                    <a href="#modal-07" title="">
+                                    <a href="#modal-11" title="">
                                         <img src="images/portfolio/HiOxMask.jpg" alt="" />
                                         <div className="overlay">
                                             <div className="portfolio-item-meta">
@@ -116,7 +177,7 @@ const Portfolio = () => {
 
                             <div className="columns portfolio-item">
                                 <div className="item-wrap">
-                                    <a href="#modal-08" title="">
+                                    <a href="#modal-12" title="">
                                         <img src="images/portfolio/PLC_Ship.jpg" alt="" />
                                         <div className="overlay">
                                             <div className="portfolio-item-meta">
@@ -129,19 +190,21 @@ const Portfolio = () => {
                                 </div>
                             </div>
 
+
+
                         </div>
                     </div>
                 </div>
 
                 <div className="popup-modal mfp-hide" id="modal-01">
-                    <img src="images/portfolio/modals/m-scratch_web.jpg" alt="Scratch: A Simple Note Taking App" className="scale-with-grid" />
+                    <img src="images/portfolio/modals/m-thirtyOneLabs.jpg" alt="ThirtyOne Labs" className="scale-with-grid" />
                     <div className="description-box">
-                        <h4>Scratch: A Simple Note Taking App</h4>
-                        <p><strong>Task</strong> To build a full stack serverless application.<br /> <strong>Responsibility</strong> I utilized AWS Lambda + API Gateway for my serverless API, along with using DynamoDB for the database and Cognito for authentication and securing the API. In order to host this site I use AWS S3, and used CloudFront for serving out the app. The front end was created with React.js using React Router for routing, Bootstrap for the UI kit, and GitHub for hosting my project repos.</p>
+                        <h4>ThirtyOne Labs</h4>
+                        <p><strong>Task</strong> To build a full stack web application.<br /> <strong>Responsibility</strong>Set up a server with Node.js and Express, created a MongoDB schema for registration and login purposes then set up API routes using passport + jsonwebtokens(JWTs) for authentication and input validation. Created protected routes accessible only to logged-in users based on their authentication, and created front-end React app with components for navigation, landing page, login, registration, interior pages including inventory page dynamically updated through authenticated administrator panel.</p>
                         <span className="categories"><i className="fa fa-tag">Full Stack, Development</i></span>
                     </div>
                     <div className="link-box">
-                        <a href="http://d20z0i2q3asibp.cloudfront.net/" target="_blank" rel="noopener noreferrer">Website</a>
+                        {/* <a href="http://d20z0i2q3asibp.cloudfront.net/" target="_blank" rel="noopener noreferrer">Website</a> */}
                         <a href="#portfolio" className="popup-modal-dismiss">Close</a>
                     </div>
                 </div>
@@ -198,6 +261,54 @@ const Portfolio = () => {
                 </div>
 
                 <div className="popup-modal mfp-hide" id="modal-06">
+                    <img src="images/portfolio/modals/m-dLink_rt1.jpg" alt="D-Link Landing Page" className="scale-with-grid" />
+                    <div className="description-box">
+                        <h4>D-Link</h4>
+                        <p>Designed and developed this landing page for D-Link introducing their new home security system.</p>
+                        <span className="categories"><i className="fa fa-tag">Web Landing Page</i></span>
+                    </div>
+                    <div className="link-box">
+                        <a href="#portfolio" className="popup-modal-dismiss">Close</a>
+                    </div>
+                </div>
+
+                <div className="popup-modal mfp-hide" id="modal-07">
+                    <img src="images/portfolio/modals/m-vcBanners.jpg" alt="Vista Collina Resort" className="scale-with-grid" />
+                    <div className="description-box">
+                        <h4>Vista Collina Resort</h4>
+                        <p>A variety of sized web Banners introducing the Grand Opening of Vista Collina Resort.</p>
+                        <span className="categories"><i className="fa fa-tag">Web Banners</i></span>
+                    </div>
+                    <div className="link-box">
+                        <a href="#portfolio" className="popup-modal-dismiss">Close</a>
+                    </div>
+                </div>
+
+                <div className="popup-modal mfp-hide" id="modal-08">
+                    <img src="images/portfolio/modals/m-jwstBrochure.jpg" alt="James Webb Sapce Telescope" className="scale-with-grid" />
+                    <div className="description-box">
+                        <h4>James Webb Space Telescope</h4>
+                        <p>The James Webb Space Telescope brochure was created for Northrop Grumman to handout to visitors who visited their booth display at the South by SouthWest Expo.</p>
+                        <span className="categories"><i className="fa fa-tag">Brochure Layout</i></span>
+                    </div>
+                    <div className="link-box">
+                        <a href="#portfolio" className="popup-modal-dismiss">Close</a>
+                    </div>
+                </div>
+
+                <div className="popup-modal mfp-hide" id="modal-09">
+                    <img src="images/portfolio/modals/m-epsonProjectorBrochure.jpg" alt="Epson Projector Brochure" className="scale-with-grid" />
+                    <div className="description-box">
+                        <h4>Epson Projectors Brochure</h4>
+                        <p>The Epson Projector Brochure was created for Epson to hand out to potential clients who visited their booth at the CEDIA convention.</p>
+                        <span className="categories"><i className="fa fa-tag">Brochure Layout</i></span>
+                    </div>
+                    <div className="link-box">
+                        <a href="#portfolio" className="popup-modal-dismiss">Close</a>
+                    </div>
+                </div>
+
+                <div className="popup-modal mfp-hide" id="modal-10">
                     <img src="images/portfolio/modals/mitsu_rt1.jpg" alt="Mitsubishi Electric Tradeshow Booth" className="scale-with-grid" />
                     <div className="description-box">
                         <h4>Mitsubishi Electric</h4>
@@ -209,7 +320,7 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-                <div className="popup-modal mfp-hide" id="modal-07">
+                <div className="popup-modal mfp-hide" id="modal-11">
                     <img src="images/portfolio/modals/m-HiOxMask.jpg" alt="HiOx emergency oxygen mask" className="scale-with-grid" />
                     <div className="description-box">
                         <h4>Hi Ox</h4>
@@ -220,8 +331,7 @@ const Portfolio = () => {
                         <a href="#portfolio" className="popup-modal-dismiss">Close</a>
                     </div>
                 </div>
-
-                <div className="popup-modal mfp-hide" id="modal-08">
+                <div className="popup-modal mfp-hide" id="modal-12">
                     <img src="images/portfolio/modals/m-PLC_Ship.jpg" alt="PLC Shipping Cargo Ship" className="scale-with-grid" />
                     <div className="description-box">
                         <h4>PLC Shipping</h4>

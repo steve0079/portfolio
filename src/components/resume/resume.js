@@ -24,6 +24,13 @@ const Resume = () => {
                                 <p>On-going education and learning web development.</p>
                             </div>
                         </div>
+                        <div className="row item">
+                            <div className="twelve columns">
+                                <h3>Udemy.com</h3>
+                                <p className="info">Web Developer Courses<span>&bull;</span><em className="date">2019 – 2020</em></p>
+                                <p>On-going education extending my knowledge for React, Redux, <br />AWS, CSS, HTML, JavaScript Algorithms and Data Structures.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -34,18 +41,18 @@ const Resume = () => {
                     <div className="nine columns main-col">
                         <div className="row item">
                             <div className="twelve columns">
-                                <h3>FundedU</h3>
-                                <h5>Costa Mesa, CA</h5>
-                                <p className="info">Freelance Full Stack Developer <span>&bull;</span><em className="date">August 2019</em></p>
+                                <h3>ThirtyOne Labs</h3>
+                                <h5>Santa Ana, CA</h5>
+                                <p className="info">Freelance Full Stack Developer <span>&bull;</span><em className="date">October 2019 – Current</em></p>
                                 <ul>
-                                    <li><strong>Task:</strong><br />Develop a web application connecting students with funders.</li><br />
+                                    <li><strong>Task:</strong><br />Developing a web application to streamline the users online experience to view <br />their latest inventory, and set up an off-line purchasing plan.</li><br />
                                     <li><strong>Responsibility:</strong></li>
                                     <li>Set up a server with Node.js and Express</li>
                                     <li>Created a MongoDB schema for registration and login purposes</li>
                                     <li>Set up API routes using passport + jsonwebtokens(JWTs) for <br />authentication and input validation</li>
                                     <li>Created protected routes accessible only to logged-in users <br />based on their authentication.</li>
-                                    <li>Created front-end React app with components for navigation, <br />landing page, login, registration and dashboard.</li>
-                                    <li>Implemented Redux for state management</li><br />
+                                    <li>Created front-end React app with components for navigation, <br />landing page, login, registration, interior pages including inventory page <br />dynamically updated through authenticated administrator panel .</li>
+                                    <li>Implemented React hooks including useContext for state management.</li><br />
                                 </ul>
                             </div>
                         </div>
@@ -53,7 +60,7 @@ const Resume = () => {
                             <div className="twelve columns">
                                 <h3>Abert Entity</h3>
                                 <h5>Palm Springs, CA</h5>
-                                <p className="info">Freelance Web Designer <span>&bull;</span><em className="date">February 2018 – May 2019</em></p>
+                                <p className="info">Freelance Web Designer <span>&bull;</span><em className="date">February 2018 – December 2019</em></p>
                                 <ul>
                                     <li><strong>Task:</strong><br />Develop a web site for new business presentations.</li><br />
                                     <li><strong>Responsibility:</strong></li>
@@ -112,6 +119,9 @@ const Resume = () => {
                                 <li><span className="bar-expand bootstrap"></span><em>Bootstrap</em></li>
                                 <li><span className="bar-expand npm"></span><em>NPM</em></li>
                                 <li><span className="bar-expand photoshop"></span><em>PhotoShop</em></li>
+                                <li><span className="bar-expand photoshop"></span><em>InDesign</em></li>
+                                <li><span className="bar-expand photoshop"></span><em>Illustrator</em></li>
+                                <li><span className="bar-expand photoshop"></span><em>Acrobat</em></li>
                             </ul>
                         </div>
                     </div>
