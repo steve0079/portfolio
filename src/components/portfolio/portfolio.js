@@ -87,7 +87,7 @@ const Portfolio = () => {
                             <div className="columns portfolio-item">
                                 <div className="item-wrap">
                                     <a href="#modal-06">
-                                        <img src="images/portfolio/dLink_rt1.jpg" alt="" />
+                                        <img src="images/portfolio/dlink_rt1.jpg" alt="" />
                                         <div className="overlay">
                                             <div className="portfolio-item-meta">
                                                 <h5>D-Link</h5>
