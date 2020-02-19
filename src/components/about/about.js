@@ -26,7 +26,7 @@ const About = () => {
                             </div>
                             <div className="columns download">
                                 <p>
-                                    <a href="images/Steve_Martin_Developer_Resume_2019-3.pdf" target="_blank" className="button"><i className="fa fa-download"></i>Download Resume</a>
+                                    <a href="images/Steve_Martin_Developer_Resume_2019-4.pdf" target="_blank" className="button"><i className="fa fa-download"></i>Download Resume</a>
                                 </p>
                             </div>
                         </div>

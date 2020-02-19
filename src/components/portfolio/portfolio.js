@@ -6,12 +6,12 @@ const Portfolio = () => {
             <section id="portfolio">
                 <div className="row">
                     <div className="twelve columns collapsed">
-                        <h1>Check Out Some of My Work.</h1>
+                        <h1 className="portfolio-headline">A Vareity of Samples to Choose From:</h1>
                         <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
 
                             <div className="columns portfolio-item">
                                 <div className="item-wrap">
-                                    <a href="#modal-01" title="Scratch: A Simple Note Taking App">
+                                    <a href="#modal-01" title="ThirtyOne Labs">
                                         <img src="images/portfolio/thirtyOneLabs.jpg" alt="" />
                                         <div className="overlay">
                                             <div className="portfolio-item-meta">
@@ -199,12 +199,13 @@ const Portfolio = () => {
                 <div className="popup-modal mfp-hide" id="modal-01">
                     <img src="images/portfolio/modals/m-thirtyOneLabs.jpg" alt="ThirtyOne Labs" className="scale-with-grid" />
                     <div className="description-box">
-                        <h4>ThirtyOne Labs</h4>
-                        <p><strong>Task</strong> To build a full stack web application.<br /> <strong>Responsibility</strong>Set up a server with Node.js and Express, created a MongoDB schema for registration and login purposes then set up API routes using passport + jsonwebtokens(JWTs) for authentication and input validation. Created protected routes accessible only to logged-in users based on their authentication, and created front-end React app with components for navigation, landing page, login, registration, interior pages including inventory page dynamically updated through authenticated administrator panel.</p>
-                        <span className="categories"><i className="fa fa-tag">Full Stack, Development</i></span>
+                        <h4>ThirtyOne Labs - Case Study</h4>
+                        <p><strong>Role: </strong>Full Stack Web Developer</p>
+                        <p><strong>Challenge: </strong>ThirtyOne Labs needed a login and registration for the administration team allowing them to maintain their current inventory.</p>
+                        <p><strong>Summary: </strong>Set up a server with Node.js and Express, created a MongoDB schema for registration and login purposes then set up API routes using passport + jsonwebtokens(JWTs) for authentication and input validation. Created protected routes accessible only to logged-in users based on their authentication, and created front-end React app with components for navigation, landing page, login, registration, and interior pages.</p>
                     </div>
                     <div className="link-box">
-                        {/* <a href="http://d20z0i2q3asibp.cloudfront.net/" target="_blank" rel="noopener noreferrer">Website</a> */}
+                        <a href="https://evening-crag-02390.herokuapp.com/" target="_blank" rel="noopener noreferrer">Website</a>
                         <a href="#portfolio" className="popup-modal-dismiss">Close</a>
                     </div>
                 </div>
@@ -213,8 +214,9 @@ const Portfolio = () => {
                     <img src="images/portfolio/modals/m-devConnect_web.jpg" alt="" className="scale-with-grid" />
                     <div className="description-box">
                         <h4>MERN Web App</h4>
-                        <p><strong>Task</strong> Create a full-stack MERN web app. <br /> </p>
-                        <span className="categories"><i className="fa fa-tag">Full Stack, Development</i></span>
+                        <p><strong>Role: </strong>Full Stack Developer</p>
+                        <p><strong>Summary: </strong>Create a full-stack MERN web app.</p>
+                        <span className="categories"><i className="fa fa-tag">Web Development</i></span>
                     </div>
                     <div className="link-box">
                         <a href="https://boiling-bastion-07485.herokuapp.com" target="_blank" rel="noopener noreferrer">Website</a>
@@ -226,9 +228,10 @@ const Portfolio = () => {
                     <img src="images/portfolio/modals/m-fundedu_web.jpg" alt="" className="scale-with-grid" />
                     <div className="description-box">
                         <h4>FundEDU</h4>
-                        <p><strong>Task</strong> Develop a web application connecting students with funders.</p>
-                        <p><strong>Responsibility</strong> As a team project we first needed to set up a server with Node.js and Express, then create a MongoDB schema for registration and login purposes. Next, we set up API routes using passport + jsonwebtokens(JWTs) for authentication and input validation, then created protected routes that are accessible only to logged-in users based on their authentication. For the front end, we created a React app with components for navigation, landing page, login, registration and dashboard, and used Redux for state management.</p>
-                        <span className="categories"><i className="fa fa-tag">Full Stack, Development</i></span>
+                        <p><strong>Role: </strong>Team Member, Full Stack Developer</p>
+                        <p><strong>Challenge: </strong>Develop a web application connecting students with funders.</p>
+                        <p><strong>Summary: </strong>As a team project we first needed to set up a server with Node.js and Express, then create a MongoDB schema for registration and login purposes. Next, we set up API routes using passport + jsonwebtokens(JWTs) for authentication and input validation, then created protected routes that are accessible only to logged-in users based on their authentication. For the front end, we created a React app with components for navigation, landing page, login, registration and dashboard, and used Redux for state management.</p>
+                        <span className="categories"><i className="fa fa-tag">Web App Development</i></span>
                     </div>
                     <div className="link-box">
                         <a href="#portfolio" className="popup-modal-dismiss">Close</a>
@@ -239,7 +242,9 @@ const Portfolio = () => {
                     <img src="images/portfolio/modals/m-mas_web.jpg" alt="Malaysia Airlines" className="scale-with-grid" />
                     <div className="description-box">
                         <h4>Malaysia Airlines</h4>
-                        <p><strong>Task</strong> Design Malaysia Airlines website. <br /> <strong>Responsibility</strong> Working with the creative and art directors, I was given the responsibility to design each page of the site, and work closely with the developers to have the site fully functional and meet the clients design needs. <em>(This was my first website designed, circa 2002)</em></p>
+                        <p><strong>Role: </strong>Web Designer</p>
+                        <p><strong>Challenge: </strong>Design Malaysia Airlines website.</p>
+                        <p><strong>Summary: </strong> Working with the creative and art directors, I was given the responsibility to design each page of the site, and work closely with the developers to have the site fully functional and meet the clients design needs. <em>(This was my first website designed, circa 2002)</em></p>
                         <span className="categories"><i className="fa fa-tag">Web Design</i></span>
                     </div>
                     <div className="link-box">
@@ -251,7 +256,9 @@ const Portfolio = () => {
                     <img src="images/portfolio/modals/m-nsc_web.jpg" alt="" className="scale-with-grid" />
                     <div className="description-box">
                         <h4>Novel Spirits Collection</h4>
-                        <p><strong>Task</strong> To design and develop a website to help promote and sell to distributors a new type of alcohol spirits while working with the Owner. <br /> <strong>Responsibility</strong> I was able to review each design element of the site, and develop and execute the layout and functionality using Adobe Muse.</p>
+                        <p><strong>Role: </strong>Web Designer / Developer</p>
+                        <p><strong>Challenge: </strong>To design and develop a website to help promote and sell to distributors a new type of alcohol spirits.</p>
+                        <p><strong>Summary: </strong> I was able to review each design element of the site, then develop and execute the layout with functionality using Adobe Muse.</p>
                         <span className="categories"><i className="fa fa-tag">Web Design, Development</i></span>
                     </div>
                     <div className="link-box">
@@ -264,7 +271,8 @@ const Portfolio = () => {
                     <img src="images/portfolio/modals/m-dLink_rt1.jpg" alt="D-Link Landing Page" className="scale-with-grid" />
                     <div className="description-box">
                         <h4>D-Link</h4>
-                        <p>Designed and developed this landing page for D-Link introducing their new home security system.</p>
+                        <p><strong>Role: </strong>Web Designer</p>
+                        <p><strong>Challenge: </strong>Designed and develop a landing page for D-Link, introducing their new home security system.</p>
                         <span className="categories"><i className="fa fa-tag">Web Landing Page</i></span>
                     </div>
                     <div className="link-box">
@@ -276,7 +284,9 @@ const Portfolio = () => {
                     <img src="images/portfolio/modals/m-vcBanners.jpg" alt="Vista Collina Resort" className="scale-with-grid" />
                     <div className="description-box">
                         <h4>Vista Collina Resort</h4>
-                        <p>A variety of sized web Banners introducing the Grand Opening of Vista Collina Resort.</p>
+                        <p><strong>Role: </strong>Lead Graphic Designer</p>
+                        <p><strong>Challenge: </strong>Produce various sized web Banners introducing the Grand Opening of Vista Collina Resort.</p>
+                        <p><strong>Summary: </strong>Upon the opening of the newly built luxury hotel in Napa, CA, the booking reservations was at 90 percent, almost doubled of the forecasted reservations.</p>
                         <span className="categories"><i className="fa fa-tag">Web Banners</i></span>
                     </div>
                     <div className="link-box">
@@ -288,7 +298,8 @@ const Portfolio = () => {
                     <img src="images/portfolio/modals/m-jwstBrochure.jpg" alt="James Webb Sapce Telescope" className="scale-with-grid" />
                     <div className="description-box">
                         <h4>James Webb Space Telescope</h4>
-                        <p>The James Webb Space Telescope brochure was created for Northrop Grumman to handout to visitors who visited their booth display at the South by SouthWest Expo.</p>
+                        <p><strong>Role: </strong>Graphic Designer</p>
+                        <p><strong>Summary: </strong>The James Webb Space Telescope brochure was created for Northrop Grumman to handout to visitors who visited their booth display at the South by SouthWest Expo.</p>
                         <span className="categories"><i className="fa fa-tag">Brochure Layout</i></span>
                     </div>
                     <div className="link-box">
@@ -300,7 +311,8 @@ const Portfolio = () => {
                     <img src="images/portfolio/modals/m-epsonProjectorBrochure.jpg" alt="Epson Projector Brochure" className="scale-with-grid" />
                     <div className="description-box">
                         <h4>Epson Projectors Brochure</h4>
-                        <p>The Epson Projector Brochure was created for Epson to hand out to potential clients who visited their booth at the CEDIA convention.</p>
+                        <p><strong>Role: </strong>Graphic Designer</p>
+                        <p><strong>Summary: </strong>The Epson Projector Brochure was created for Epson to hand out to potential clients who visited their booth at the CEDIA convention.</p>
                         <span className="categories"><i className="fa fa-tag">Brochure Layout</i></span>
                     </div>
                     <div className="link-box">
@@ -312,7 +324,8 @@ const Portfolio = () => {
                     <img src="images/portfolio/modals/mitsu_rt1.jpg" alt="Mitsubishi Electric Tradeshow Booth" className="scale-with-grid" />
                     <div className="description-box">
                         <h4>Mitsubishi Electric</h4>
-                        <p>A before and after example of my photo retouching skills. The original image (upper left) needed to have the background removed, and foreground cleaned up and color corrected. I even changed out the carpet to match.</p>
+                        <p><strong>Role: </strong>Photo Manipulation</p>
+                        <p><strong>Summary: </strong>A before and after example of my photo retouching skills. The original image (upper left) needed to have the background removed, and foreground cleaned up and color corrected. I even changed out the carpet to match.</p>
                         <span className="categories"><i className="fa fa-tag">Photo Retouching</i></span>
                     </div>
                     <div className="link-box">
@@ -324,7 +337,8 @@ const Portfolio = () => {
                     <img src="images/portfolio/modals/m-HiOxMask.jpg" alt="HiOx emergency oxygen mask" className="scale-with-grid" />
                     <div className="description-box">
                         <h4>Hi Ox</h4>
-                        <p>It's no easy task to retouch an existing image with an overlay of an oxygen mask, but with this before and after, you can see it can be done.</p>
+                        <p><strong>Role: </strong>Photo Manipulation</p>
+                        <p><strong>Summary: </strong>It's no easy task to retouch an existing image with an overlay of an oxygen mask, but with this before and after, you can see it can be done.</p>
                         <span className="categories"><i className="fa fa-tag">Photo Retouching</i></span>
                     </div>
                     <div className="link-box">
@@ -335,18 +349,14 @@ const Portfolio = () => {
                     <img src="images/portfolio/modals/m-PLC_Ship.jpg" alt="PLC Shipping Cargo Ship" className="scale-with-grid" />
                     <div className="description-box">
                         <h4>PLC Shipping</h4>
-                        <p>This before and after shows that an empty cargo ship can be easily manipulated to become a fully loaded cargo ship with added safety railings.</p>
+                        <p><strong>Role: </strong>Photo Manipulation</p>
+                        <p><strong>Summary: </strong>This before and after shows that an empty cargo ship can be easily manipulated to become a fully loaded cargo ship with added safety railings.</p>
                         <span className="categories"><i className="fa fa-tag">Photo Retouching</i></span>
                     </div>
                     <div className="link-box">
                         <a href="#portfolio" className="popup-modal-dismiss">Close</a>
                     </div>
                 </div>
-
-                <p className="scrolldown">
-                    <a className="smoothscroll" href="#testimonials"><i className="icon-down-circle"></i></a>
-                </p>
-
             </section>
         </Fragment>
     );
