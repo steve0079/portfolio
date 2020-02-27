@@ -41,12 +41,12 @@ const Portfolio = () => {
 
                             <div className="columns portfolio-item">
                                 <div className="item-wrap">
-                                    <a href="#modal-03" title="">
-                                        <img src="images/portfolio/fundedu_web.jpg" alt="" />
+                                    <a href="#modal-05" title="">
+                                        <img src="images/portfolio/nsc-web.jpg" alt="" />
                                         <div className="overlay">
                                             <div className="portfolio-item-meta">
-                                                <h5>FundEDU</h5>
-                                                <p>Full Stack Development</p>
+                                                <h5>Novel Spirits Collection</h5>
+                                                <p>Web Design/Development</p>
                                             </div>
                                         </div>
                                         <div className="link-icon"><i className="icon-plus"></i></div>
@@ -71,12 +71,12 @@ const Portfolio = () => {
 
                             <div className="columns portfolio-item">
                                 <div className="item-wrap">
-                                    <a href="#modal-05" title="">
-                                        <img src="images/portfolio/nsc-web.jpg" alt="" />
+                                    <a href="#modal-06">
+                                        <img src="images/portfolio/dlink_rt1.jpg" alt="" />
                                         <div className="overlay">
                                             <div className="portfolio-item-meta">
-                                                <h5>Novel Spirits Collection</h5>
-                                                <p>Web Design/Development</p>
+                                                <h5>D-Link</h5>
+                                                <p>Web Landing Page</p>
                                             </div>
                                         </div>
                                         <div className="link-icon"><i className="icon-plus"></i></div>
@@ -86,12 +86,12 @@ const Portfolio = () => {
 
                             <div className="columns portfolio-item">
                                 <div className="item-wrap">
-                                    <a href="#modal-06">
-                                        <img src="images/portfolio/dlink_rt1.jpg" alt="" />
+                                    <a href="#modal-03" title="">
+                                        <img src="images/portfolio/epson_web.jpg" alt="" />
                                         <div className="overlay">
                                             <div className="portfolio-item-meta">
-                                                <h5>D-Link</h5>
-                                                <p>Web Landing Page</p>
+                                                <h5>Epson Projectors</h5>
+                                                <p>Landing Page</p>
                                             </div>
                                         </div>
                                         <div className="link-icon"><i className="icon-plus"></i></div>
@@ -225,12 +225,12 @@ const Portfolio = () => {
                 </div>
 
                 <div className="popup-modal mfp-hide" id="modal-03">
-                    <img src="images/portfolio/modals/m-fundedu_web.jpg" alt="" className="scale-with-grid" />
+                    <img src="images/portfolio/modals/m-epson_web.jpg" alt="" className="scale-with-grid" />
                     <div className="description-box">
-                        <h4>FundEDU</h4>
-                        <p><strong>Role: </strong>Team Member, Full Stack Developer</p>
-                        <p><strong>Challenge: </strong>Develop a web application connecting students with funders.</p>
-                        <p><strong>Summary: </strong>As a team project we first needed to set up a server with Node.js and Express, then create a MongoDB schema for registration and login purposes. Next, we set up API routes using passport + jsonwebtokens(JWTs) for authentication and input validation, then created protected routes that are accessible only to logged-in users based on their authentication. For the front end, we created a React app with components for navigation, landing page, login, registration and dashboard, and used Redux for state management.</p>
+                        <h4>Epson Projectors - Case Study</h4>
+                        <p><strong>Role: </strong>Web Designer</p>
+                        <p><strong>Challenge: </strong>Design a landing page and secondary product page for Epson Projectors.</p>
+                        <p><strong>Summary: </strong>The landing page consisted of highlighting Epson's flagship projectors with a brief description for each category, allowing the customer to click through to a secondary page listing the full line of each category. The secondary page allowed the customer to view each projector individually and download a PDF to compare the full specs of each category.</p>
                         <span className="categories"><i className="fa fa-tag">Web App Development</i></span>
                     </div>
                     <div className="link-box">
@@ -241,7 +241,7 @@ const Portfolio = () => {
                 <div className="popup-modal mfp-hide" id="modal-04">
                     <img src="images/portfolio/modals/m-mas_web.jpg" alt="Malaysia Airlines" className="scale-with-grid" />
                     <div className="description-box">
-                        <h4>Malaysia Airlines</h4>
+                        <h4>Malaysia Airlines - Case Study</h4>
                         <p><strong>Role: </strong>Web Designer</p>
                         <p><strong>Challenge: </strong>Design Malaysia Airlines website.</p>
                         <p><strong>Summary: </strong> Working with the creative and art directors, I was given the responsibility to design each page of the site, and work closely with the developers to have the site fully functional and meet the clients design needs. <em>(This was my first website designed, circa 2002)</em></p>
@@ -255,7 +255,7 @@ const Portfolio = () => {
                 <div className="popup-modal mfp-hide" id="modal-05">
                     <img src="images/portfolio/modals/m-nsc_web.jpg" alt="" className="scale-with-grid" />
                     <div className="description-box">
-                        <h4>Novel Spirits Collection</h4>
+                        <h4>Novel Spirits Collectio - Case Study</h4>
                         <p><strong>Role: </strong>Web Designer / Developer</p>
                         <p><strong>Challenge: </strong>To design and develop a website to help promote and sell to distributors a new type of alcohol spirits.</p>
                         <p><strong>Summary: </strong> I was able to review each design element of the site, then develop and execute the layout with functionality using Adobe Muse.</p>
@@ -270,7 +270,7 @@ const Portfolio = () => {
                 <div className="popup-modal mfp-hide" id="modal-06">
                     <img src="images/portfolio/modals/m-dLink_rt1.jpg" alt="D-Link Landing Page" className="scale-with-grid" />
                     <div className="description-box">
-                        <h4>D-Link</h4>
+                        <h4>D-Link - Case Study</h4>
                         <p><strong>Role: </strong>Web Designer</p>
                         <p><strong>Challenge: </strong>Designed and develop a landing page for D-Link, introducing their new home security system.</p>
                         <span className="categories"><i className="fa fa-tag">Web Landing Page</i></span>
@@ -283,7 +283,7 @@ const Portfolio = () => {
                 <div className="popup-modal mfp-hide" id="modal-07">
                     <img src="images/portfolio/modals/m-vcBanners.jpg" alt="Vista Collina Resort" className="scale-with-grid" />
                     <div className="description-box">
-                        <h4>Vista Collina Resort</h4>
+                        <h4>Vista Collina Resort - Case Study</h4>
                         <p><strong>Role: </strong>Lead Graphic Designer</p>
                         <p><strong>Challenge: </strong>Produce various sized web Banners introducing the Grand Opening of Vista Collina Resort.</p>
                         <p><strong>Summary: </strong>Upon the opening of the newly built luxury hotel in Napa, CA, the booking reservations was at 90 percent, almost doubled of the forecasted reservations.</p>
@@ -297,7 +297,7 @@ const Portfolio = () => {
                 <div className="popup-modal mfp-hide" id="modal-08">
                     <img src="images/portfolio/modals/m-jwstBrochure.jpg" alt="James Webb Sapce Telescope" className="scale-with-grid" />
                     <div className="description-box">
-                        <h4>James Webb Space Telescope</h4>
+                        <h4>James Webb Space Telescope - Case Study</h4>
                         <p><strong>Role: </strong>Graphic Designer</p>
                         <p><strong>Summary: </strong>The James Webb Space Telescope brochure was created for Northrop Grumman to handout to visitors who visited their booth display at the South by SouthWest Expo.</p>
                         <span className="categories"><i className="fa fa-tag">Brochure Layout</i></span>
@@ -310,7 +310,7 @@ const Portfolio = () => {
                 <div className="popup-modal mfp-hide" id="modal-09">
                     <img src="images/portfolio/modals/m-epsonProjectorBrochure.jpg" alt="Epson Projector Brochure" className="scale-with-grid" />
                     <div className="description-box">
-                        <h4>Epson Projectors Brochure</h4>
+                        <h4>Epson Projectors Brochure - Case Study</h4>
                         <p><strong>Role: </strong>Graphic Designer</p>
                         <p><strong>Summary: </strong>The Epson Projector Brochure was created for Epson to hand out to potential clients who visited their booth at the CEDIA convention.</p>
                         <span className="categories"><i className="fa fa-tag">Brochure Layout</i></span>
@@ -323,7 +323,7 @@ const Portfolio = () => {
                 <div className="popup-modal mfp-hide" id="modal-10">
                     <img src="images/portfolio/modals/mitsu_rt1.jpg" alt="Mitsubishi Electric Tradeshow Booth" className="scale-with-grid" />
                     <div className="description-box">
-                        <h4>Mitsubishi Electric</h4>
+                        <h4>Mitsubishi Electric - Case Study</h4>
                         <p><strong>Role: </strong>Photo Manipulation</p>
                         <p><strong>Summary: </strong>A before and after example of my photo retouching skills. The original image (upper left) needed to have the background removed, and foreground cleaned up and color corrected. I even changed out the carpet to match.</p>
                         <span className="categories"><i className="fa fa-tag">Photo Retouching</i></span>
@@ -336,7 +336,7 @@ const Portfolio = () => {
                 <div className="popup-modal mfp-hide" id="modal-11">
                     <img src="images/portfolio/modals/m-HiOxMask.jpg" alt="HiOx emergency oxygen mask" className="scale-with-grid" />
                     <div className="description-box">
-                        <h4>Hi Ox</h4>
+                        <h4>Hi Ox - Case Study</h4>
                         <p><strong>Role: </strong>Photo Manipulation</p>
                         <p><strong>Summary: </strong>It's no easy task to retouch an existing image with an overlay of an oxygen mask, but with this before and after, you can see it can be done.</p>
                         <span className="categories"><i className="fa fa-tag">Photo Retouching</i></span>
@@ -348,7 +348,7 @@ const Portfolio = () => {
                 <div className="popup-modal mfp-hide" id="modal-12">
                     <img src="images/portfolio/modals/m-PLC_Ship.jpg" alt="PLC Shipping Cargo Ship" className="scale-with-grid" />
                     <div className="description-box">
-                        <h4>PLC Shipping</h4>
+                        <h4>PLC Shipping - Case Study</h4>
                         <p><strong>Role: </strong>Photo Manipulation</p>
                         <p><strong>Summary: </strong>This before and after shows that an empty cargo ship can be easily manipulated to become a fully loaded cargo ship with added safety railings.</p>
                         <span className="categories"><i className="fa fa-tag">Photo Retouching</i></span>

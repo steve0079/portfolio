@@ -28,7 +28,7 @@ const Resume = () => {
                             <div className="twelve columns">
                                 <h3>Udemy.com</h3>
                                 <p className="info">Web Developer Courses<span>&bull;</span><em className="date">2019 – 2020</em></p>
-                                <p>On-going education extending my knowledge for React, Redux, <br />AWS, CSS, HTML, JavaScript Algorithms and Data Structures.</p>
+                                <p>On-going education extending my knowledge for React, Redux, AWS, CSS, HTML, JavaScript Algorithms and Data Structures.</p>
                             </div>
                         </div>
                     </div>
@@ -43,16 +43,15 @@ const Resume = () => {
                             <div className="twelve columns">
                                 <h3>ThirtyOne Labs</h3>
                                 <h5>Santa Ana, CA</h5>
-                                <p className="info">Freelance Full Stack Developer <span>&bull;</span><em className="date">October 2019 – Current</em></p>
+                                <p className="info">Freelance Full Stack Developer <span>&bull;</span><em className="date">October 2019 – January 2020</em></p>
                                 <ul>
-                                    <li><strong>Task:</strong><br />Developing a web application to streamline the users online experience to view <br />their latest inventory, and set up an off-line purchasing plan.</li><br />
-                                    <li><strong>Responsibility:</strong></li>
+                                    <li><strong>Responsibility:</strong><br />Developing a web application to streamline the users online experience to view their latest inventory, and set up an off-line purchasing plan.</li>
                                     <li>Set up a server with Node.js and Express</li>
                                     <li>Created a MongoDB schema for registration and login purposes</li>
-                                    <li>Set up API routes using passport + jsonwebtokens(JWTs) for <br />authentication and input validation</li>
-                                    <li>Created protected routes accessible only to logged-in users <br />based on their authentication.</li>
-                                    <li>Created front-end React app with components for navigation, <br />landing page, login, registration, interior pages including inventory page <br />dynamically updated through authenticated administrator panel .</li>
-                                    <li>Implemented React hooks including useContext for state management.</li><br />
+                                    <li>Set up API routes using passport + jsonwebtokens(JWTs) for authentication and input validation</li>
+                                    <li>Created protected routes accessible only to logged-in users based on their authentication.</li>
+                                    <li>Created front-end React app with components for navigation, landing page, login, registration, interior pages including inventory page dynamically updated through authenticated administrator panel .</li>
+                                    <li>Implemented React hooks including useContext for state management.</li>
                                 </ul>
                             </div>
                         </div>
@@ -62,10 +61,9 @@ const Resume = () => {
                                 <h5>Palm Springs, CA</h5>
                                 <p className="info">Freelance Web Designer <span>&bull;</span><em className="date">February 2018 – December 2019</em></p>
                                 <ul>
-                                    <li><strong>Task:</strong><br />Develop a web site for new business presentations.</li><br />
-                                    <li><strong>Responsibility:</strong></li>
+                                    <li><strong>Responsibility:</strong><br />Develop a web site for new business presentations.</li>
                                     <li>Set up a website using Adobe Muse.</li>
-                                    <li>Created a fully functional website that was easily interchangeable to meet <br />the needs of the presentor. The main company portions of the site were <br />static across four templates, and the products sections were changed out <br />to meet the specific client who was being presented.  </li><br />
+                                    <li>Created a fully functional website that was easily interchangeable to meet the needs of the presentor. The main company portions of the site were static across four templates, and the products sections were changed out to meet the specific client who was being presented.</li>
                                 </ul>
                             </div>
                         </div>
@@ -76,9 +74,9 @@ const Resume = () => {
                                 <p className="info">Graphic Designer <span>&bull;</span> <em className="date">October 2015 - February 2018</em></p>
                                 <ul>
                                     <li><strong>Responsibility:</strong></li>
-                                    <li>Designed all materials to support the marketing initiatives and overall <br />brand identities of Pacific Hospitality Group’s Meritage Collection of hotels.</li>
-                                    <li>Lead the creative support for hotels, restaurants, spas and ancillary <br />revenue sources via digital and print means</li>
-                                    <li>Assisted with design and development of UI/UX interface.</li><br />
+                                    <li>Designed all materials to support the marketing initiatives and overall brand identities of Pacific Hospitality Group’s Meritage Collection of hotels.</li>
+                                    <li>Lead the creative support for hotels, restaurants, spas and ancillary revenue sources via digital and print means</li>
+                                    <li>Assisted with design and development of UI/UX interface.</li>
                                 </ul>
                             </div>
                         </div>
@@ -89,17 +87,17 @@ const Resume = () => {
                                 <p className="info">Web Designer / Production Artist<span>&bull;</span> <em className="date">February 2014 - October 2015</em></p>
                                 <ul>
                                     <li><strong>Responsibility:</strong></li>
-                                    <li>Designed and produced print materials including print advertising, exhibit displays,<br />
-                                        museums events, and large format graphics for various clients, including Southern<br />
+                                    <li>Designed and produced print materials including print advertising, exhibit displays,
+                                        museums events, and large format graphics for various clients, including Southern
                                         California Edison, Aquarium of the Pacific, Folsom Powerhouse State Historic Park</li>
-                                    <li>Developed website and interactive displays for Google, <br />San Francisco headquarters, using Adobe Muse and Edge Animate.</li><br />
+                                    <li>Developed website and interactive displays for Google, <br />San Francisco headquarters, using Adobe Muse and Edge Animate.</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="row skill">
+                {/* <div className="row skill">
                     <div className="three columns header-col">
                         <h1><span>Technical</span><br /><br />
                             <span>Summary</span></h1>
@@ -125,7 +123,7 @@ const Resume = () => {
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
             </section>
         </Fragment>
